@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: hsl(201, 11%, 66%); 
+  background-color: #ffffff;
+  background-image: url(b);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 363px;
+  
+  text-align: center;
+}
+h1, h2, h3{
+    color: #4c545c;
+}
+
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-top: 128px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.logo-container {
+  margin-bottom: 56px;
+}
+
+.logo-container img {
+  width: 125px;
+}
+
+.title {
+  color: hsl(210, 10%, 33%); 
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 125%;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 150%;
+  max-width: 730px;
+  margin: 0 auto 48px auto; 
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  max-width: 225px;
+  padding: 14px 0;
+  border-radius: 28px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn-ios {
+  background-color: hsl(171, 66%, 44%);
+}
+.btn-mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+
+@media (min-width: 1300px) 
+{ .text-preset-1 {
+    font-size: 46px;
+    line-height: 125%;
+    letter-spacing: -0.75px;
+    font-weight: 600; 
+  }
+  
+  .text-preset-2 {
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    font-weight: 600; 
+  }
+
+
+
+
+  .text-preset-3 {
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: -0.5px;
+    font-weight: 600; 
+  }
+
+
+
+
+  .text-preset-4 {
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.5px;
+    font-weight: 600; 
+  }
+
+
+
+
+  .text-preset-5 {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.35px;
+    font-weight: 600;
+  }
+
+
+
+
+  .text-preset-6 {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.35px;
+    font-weight: 400;
+  }
+
+
+
+
+  .text-preset-7-bold {
+    font-size: 16px;
+    line-height: 165%;
+    letter-spacing: 0px;
+    font-weight: 600;
+  }
+
+
+
+
+  .text-preset-7-regular {
+    font-size: 16px;
+    line-height: 165%;
+    letter-spacing: 0px;
+    font-weight: 400; 
+  }
+
+
+
+
+  .text-preset-8 {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 400; 
+  }
+  section
+{
+    margin-top: 16px;
+}
+}
